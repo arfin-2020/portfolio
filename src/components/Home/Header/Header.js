@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import './Header.css'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import mycv from '../../../cv/Curriculum Vitea of Arfin Chowdhury Arif.pdf'
+
 const Header = () => {
     return (
         <div style = {{height:"800px"}} className="cotainer-fluid row d-flex align-items-center "> 
@@ -33,7 +33,7 @@ const Header = () => {
                 <a href ="https://www.linkedin.com/in/arfin-chowdhury-arif-0b6308173/" target="_blanck">
                         <button  className="fency-btn">Hire Me</button>
                 </a>
-                <a href ={mycv} download = "Curriculum Vitea of Arfin Chowdhury Arif.pdf">
+                <a href ="https://drive.google.com/file/d/1_EmRh6su3P9BTrrgZtg8loEazWO4bPc2/view?usp=sharing" target="_blanck">
                         <button className="fency-btn">Resume</button>
                 </a>
             </div>
