@@ -36,7 +36,7 @@ const ContactForm = () => {
                                 <div className="form-group">
                                     <textarea name="message" className="form-control" id="" cols="30" rows="10" placeholder="Message *"></textarea>
                                 </div><br/>
-                             <input type="submit" value="Send" />
+                             <input className = "fency-btn" type="submit" value="Send" />
                         </form>
                     </div>
                 </div>

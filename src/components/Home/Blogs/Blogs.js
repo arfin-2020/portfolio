@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../Nabvar/Navbar';
 import BlogsDetails from './BlogsDetails';
 
 const Blogs = () => {
@@ -25,7 +26,10 @@ const Blogs = () => {
         
     ];
     return (
-        <section className="d-flex justify-content-center">
+        <div>
+        <Navbar/>
+            <section className="d-flex justify-content-center">
+        
         <div className ='row w-75 pt-5 m-5'>
             <h1 style = {{textAlign:"center", color:"#ff8882"}}>My Blogs</h1>
             {
@@ -33,6 +37,7 @@ const Blogs = () => {
             }
         </div>
     </section>
+        </div>
     );
 };
 

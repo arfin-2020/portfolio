@@ -15,6 +15,12 @@ const Navbar = () => {
               <li class="nav-item style">
                 <a class="nav-link ms-5 active text-white nav-Style" aria-current="page" href="/">Home</a>
               </li>
+              <li class="nav-item style">
+                <a class="nav-link ms-5 active text-white nav-Style" aria-current="page" href="/project">Project</a>
+              </li>
+              <li class="nav-item style">
+                <a class="nav-link ms-5 active text-white nav-Style" aria-current="page" href="/blogs">Blogs</a>
+              </li>
              
               <li class="nav-item">
                 <a class="nav-link ms-5 active text-white nav-Style" aria-current="page" href="/about">About Me</a>

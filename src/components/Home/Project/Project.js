@@ -4,6 +4,7 @@ import emajhon from '../../../images/emajhon.png'
 import doctorPortal from '../../../images/doctorPortal.png'
 import bookHouse from '../../../images/bookHouse.png'
 import ProjectDetails from './ProjectDetails';
+import Navbar from '../Nabvar/Navbar';
 const Project = () => {
     const projects = [
         {
@@ -45,7 +46,9 @@ const Project = () => {
         // },
     ]
     return (
-            <section className="d-flex justify-content-center">
+            <div>
+            <Navbar/>
+                <section className="d-flex justify-content-center">
             <div className ='row w-75 pt-5 m-5'>
                 <h1 style = {{textAlign:"center", color:"#64ffda"}}>My Project</h1>
                 {
@@ -53,6 +56,7 @@ const Project = () => {
                 }
             </div>
         </section>
+            </div>
     
     );
 };

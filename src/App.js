@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import ContactForm from './components/ContactForm/ContactForm';
 import About from './components/About/About';
+import Project from './components/Home/Project/Project';
+import Blogs from './components/Home/Blogs/Blogs';
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,12 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About/>
+        </Route>
+        <Route exact path="/project">
+          <Project/>
+        </Route>
+        <Route exact path="/blogs">
+          <Blogs/>
         </Route>
         </Switch>
       </Router>
